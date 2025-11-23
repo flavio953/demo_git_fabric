@@ -7,12 +7,6 @@ table transacoes
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure 'Cotação do dia' = AVERAGE(cotacoes[Cotacao])
-		displayFolder: Medidas
-		lineageTag: 5878325d-13b4-4fd1-a9cf-6f821816733f
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
 	column ID
 		dataType: double
 		displayFolder: Colunas

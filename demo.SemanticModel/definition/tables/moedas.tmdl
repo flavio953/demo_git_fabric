@@ -1,6 +1,12 @@
 table moedas
 	lineageTag: 8546028a-a698-40b8-9c34-dfc35814670c
 
+	measure 'Cotação do dia' = AVERAGE(cotacoes[Cotacao])
+		displayFolder: Medidas
+		lineageTag: 5878325d-13b4-4fd1-a9cf-6f821816733f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column Moeda
 		dataType: string
 		lineageTag: 033ee64d-40d9-426c-a973-fec23a022352
