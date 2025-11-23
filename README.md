@@ -7,3 +7,5 @@ Depois faremos com o Fabric
 E ainda replicaremos com Azure DevOps!!
 
 A aula está realmente incrível!!!
+
+Voltei agora para terminar o vídeo :)
